@@ -1,5 +1,7 @@
 # MachinLearning_RecSys
-We make the book recommendation program using Content-based Filtering, Item-based Collaborative Filtering , User-based Collaborative Filtering.
+We make the book recommendation program using 
+
+Content-based Filtering, Item-based Collaborative Filtering , User-based Collaborative Filtering.
 
 We use dataset in kaggle , the link is here.
 
