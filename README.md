@@ -28,7 +28,10 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 - We use TF-IDF vectorizer for analyzing about features, and use cosine similiarity of them.
   
   
-  - 
+  - df : dataframe
+  - book_group : only books have been evaluated mor than 10 times
+  - ISBN_to_recommend : the book input for recommend 
+  - num_of_recommend : the number of books that we will recommend
 
   
 ### Collaborative Filtering ( Item-based )
