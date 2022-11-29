@@ -8,12 +8,23 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 
 
 ## Architecture 
+Data Exploration
 
 
+Data Preprocessing
+mergeDuplicateData()
+<img width="234" alt="image" src="https://user-images.githubusercontent.com/107402065/204488296-d30728cb-ff05-4b71-8137-dabc9293e1af.png">
+
+
+Modeling
 ## Function Definition
 
+
+#### mergeDuplicatData():
+- Make the original dataset who has duplicate data into clean dataset that we can use 
+
 #### makeNewUserData( user_history, rating_data ):
- : Make the new dataframe with user_history that who want recommendation
+ - Make the new dataframe with user_history that who want recommendation
 
 
 ### Collaborative Filtering ( Item-based )
