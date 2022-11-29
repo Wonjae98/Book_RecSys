@@ -60,7 +60,7 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 ### Test function of our model
 #### verifyRecommendation(ratings, info, num_of_sample, num_of_components, num_of_recommend):
 - Divide ratings dataset up into the test user dataset and compare recommend books.
-- You can only use this function in user-based collaborative filtering
+- You can use this function only in user-based collaborative filtering
 
   - ratings : dataset that has column ['User-ID'], ['ISBN'] , ['ratings']
   - info : dataset that has column ['Title'], ['ISBN'] 
