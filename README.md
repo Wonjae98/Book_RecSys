@@ -13,7 +13,7 @@ https://www.kaggle.com/datasets/mohitnirgulkar/book-recommendation-data?select=B
  : Make the new dataframe with user_history that who want recommendation
 
 
-### Collaborative Filtering ( Item-based)
+### Collaborative Filtering ( Item-based )
 
 
 #### bookRecommend(pivot_table,df,ISBN_to_recommend, num_of_components):
@@ -25,7 +25,7 @@ https://www.kaggle.com/datasets/mohitnirgulkar/book-recommendation-data?select=B
   - num_of_components(int) : desired dimensionality of output data in TruncatedSVD
 
 
-### Collaborative Filtering ( User-based)
+### Collaborative Filtering ( User-based )
 #### userRecommend(pivot_table, df, num_of_components, num_of_recommend, want_print):
 - Recommend the book the input user will like
 
