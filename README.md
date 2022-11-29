@@ -29,4 +29,9 @@ makeNewUserData( user_history, rating_data ):
   - want_print(boolean) : if true, print the recommendation list
 
 #### verifyRecommendation(ratings, info, num_of_sample, num_of_components, num_of_recommend):
-- Make 
+- Make the test user inside ratings dataset and compare recommend books
+
+  - ratings : dataset that has column ['User-ID'], ['ISBN'] , ['ratings']
+  - info : dataset that has column ['Title'], ['ISBN'] 
+  - num_of_sample : The number of sample that you wanna check
+  - num_of_components : 
