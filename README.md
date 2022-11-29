@@ -15,16 +15,16 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 
 
 #### mergeDuplicatData():
-- Make the original dataset who has duplicate data into clean dataset that we can use 
+- Make the original dataset who has duplicate data into clean dataset that we can use.
 
 #### makeNewUserData( user_history, rating_data ):
- - Make the new dataframe with user_history that who want recommendation
+ - Make the new dataframe with user_history that who want recommendation.
 
 ### Contents-based Filtering
 
 #### contentBasedRecommend(df, books_group, ISBN_to_recommend, num_of_recommend):
-- Recommend the book similar with the book ( ISBN_ to _ recommend)
-- For this, We use meta data which has many features( Book title, book_author, summary, category,)
+- Recommend the book similar with the book ( ISBN_ to _ recommend).
+- For this, We use meta data which has many features( Book title, book_author, summary, category).
 - We use TF-IDF vectorizer for analyzing about features, and use cosine similiarity of them.
   
   
@@ -38,7 +38,7 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 
 
 #### bookRecommend(pivot_table,df,ISBN_to_recommend, num_of_components):
-- Recommend the book similar with the input book
+- Recommend the book similar with the input book.
 
   - pivot_table : pivot table ( index = 'USER-ID' / values = 'Book-Rating' / columns ='ISBN')
   - df : dataFrame
@@ -48,7 +48,7 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 
 ### Collaborative Filtering ( User-based )
 #### userRecommend(pivot_table, df, num_of_components, num_of_recommend, want_print):
-- Recommend the book the input user will like
+- Recommend the book the input user will like.
 
   - pivot_table : pivot table ( index = 'USER-ID' / values = 'Book-Rating' / columns ='ISBN')
   - df : dataFrame
@@ -60,7 +60,7 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 ### Test function of our model
 #### verifyRecommendation(ratings, info, num_of_sample, num_of_components, num_of_recommend):
 - Divide ratings dataset up into the test user dataset and compare recommend books.
-- You can use this function only in user-based collaborative filtering
+- You can use this function only in user-based collaborative filtering.
 
   - ratings : dataset that has column ['User-ID'], ['ISBN'] , ['ratings']
   - info : dataset that has column ['Title'], ['ISBN'] 
