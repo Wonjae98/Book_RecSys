@@ -1,5 +1,5 @@
 # MachinLearning_RecSys
-We make the book recommendation program using Content-based Filtering, Collaborative Filtering , Content based Filtering.
+We make the book recommendation program using Content-based Filtering, Item-based Collaborative Filtering , User-based Collaborative Filtering.
 
 We use dataset in kaggle , the link is here.
 
@@ -54,7 +54,7 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
   - df : dataFrame
   - num_of_components(int) : desired dimensionality of output data in TruncatedSVD
   - num_of_recommend(int) : the number of books that we will recommend
-  - want_print(boolean) : if true, print the recommendation list
+  - want_print(boolean, default=True) : if true, print the recommendation list
 
 
 ### Test function of our model
