@@ -4,6 +4,8 @@ We make the book recommendation program using Collaborative Filtering , Content 
 We use dataset in kaggle , the link is here.
 
 https://www.kaggle.com/datasets/mohitnirgulkar/book-recommendation-data?select=BX-Books.csv
+https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
+
 
 ## Architecture 
 
