@@ -20,7 +20,17 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 #### makeNewUserData( user_history, rating_data ):
  - Make the new dataframe with user_history that who want recommendation
 
+### Contents-based Filtering
 
+#### contentBasedRecommend(df, books_group, ISBN_to_recommend, num_of_recommend):
+- Recommend the book similar with the book ( ISBN_ to _ recommend)
+- For this, We use meta data which has many features( Book title, book_author, summary, category,)
+- We use TF-IDF vectorizer for analyzing about features, and use cosine similiarity of them.
+  
+  
+  - 
+
+  
 ### Collaborative Filtering ( Item-based )
 
 
