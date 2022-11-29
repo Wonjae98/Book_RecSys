@@ -193,12 +193,7 @@ def verifyRecommendation(ratings, info, num_of_sample, num_of_components, num_of
 
 
 
-    
 
-#0099326809 s 9
-#0451118642 s
-#0345243447 c 10
-#059035342X h 
 
 #to verification
 num_of_sample = 100
