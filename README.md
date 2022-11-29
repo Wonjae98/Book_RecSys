@@ -8,15 +8,17 @@ https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset
 
 
 ## Architecture 
-Data Exploration
+- Data Exploration
 
 
-Data Preprocessing
-mergeDuplicateData()
-<img width="234" alt="image" src="https://user-images.githubusercontent.com/107402065/204488296-d30728cb-ff05-4b71-8137-dabc9293e1af.png">
+- Data Preprocessing
 
+  - mergeDuplicateData()
 
-Modeling
+- Modeling
+
+<img width="1156" alt="image" src="https://user-images.githubusercontent.com/107402065/204488629-6a7cd571-0ed7-4e87-bb83-3fb66888d40d.png">
+
 ## Function Definition
 
 
