@@ -1,8 +1,15 @@
 # MachinLearning_RecSys
+We make the recommendation program using Collaborative Filtering , Content based Filtering.
+
+We use dataset in kaggle , the link is here.
+
+https://www.kaggle.com/datasets/mohitnirgulkar/book-recommendation-data?select=BX-Books.csv
+
+
 
 ## Function Definition
 
-makeNewUserData( user_history, rating_data ):
+#### makeNewUserData( user_history, rating_data ):
  : Make the new dataframe with user_history that who want recommendation
 
 
@@ -28,6 +35,8 @@ makeNewUserData( user_history, rating_data ):
   - num_of_recommend(int) : the number of books that we will recommend
   - want_print(boolean) : if true, print the recommendation list
 
+
+### Test function of our model
 #### verifyRecommendation(ratings, info, num_of_sample, num_of_components, num_of_recommend):
 - Divide ratings dataset up into the test user dataset and compare recommend books.
 
